@@ -1,2 +1,2 @@
 #!/bin/bash
-printif "%.2fn\n" "${NUM}"
+printif "%.2fn\n" "${NUM:-0}"
